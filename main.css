@@ -6,7 +6,7 @@
 
 body{
     font-family: 'montserrat' ,sans-serif;
-    background-image: url('bg.jpg');
+    background-image: url('bg1.jpg');
     background-size: cover;
     background-position: top center;
 }
@@ -28,8 +28,8 @@ header input{
     padding: 10px 20px;
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255 0.3);
-    border-radius: 16px 0px 16px 0px;
+    background-color: rgb(238, 221, 221);
+    border-radius: 18px 5px 18px 5px;
     border-bottom: 3px solid #DF8E00;
     color: #313131;
     font-size: 20px;
@@ -37,7 +37,7 @@ header input{
     transition: 0.2s ease-out;  
 }
 header input:focus{
-    background-color: rgba( 255,255, 255, 0.6);
+    background-color: rgb(255, 255, 255);
 }
 main{
     flex: 1 1 100%;
